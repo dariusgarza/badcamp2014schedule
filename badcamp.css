@@ -1,0 +1,120 @@
+body{
+	font-size:10px;
+}
+
+.am {
+	
+	/*float:left;
+	width:48%;
+	margin-right:4%; */
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+	
+}
+
+.pm {
+	
+	/*float:left;
+	width:48%; */
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+.day{
+	
+	
+	font-family: 'Press Start 2P';
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	color: rgb(0,0,0);
+	text-align: center;
+	padding-bottom:30px;
+	font-size: 700%;
+	text-transform: uppercase;
+	
+}
+
+h3 {
+
+font-family: OCR B Std;
+font-size:150%;
+background-color: black;
+color: white;
+padding: 6px;
+text-align:center;
+margin-top:5px;
+}
+
+strong.session-title {
+font-family: OCR B Std;
+font-size: 100%;
+letter-spacing: -.14em;
+}
+
+.session-room {
+font-family: Helvetica;
+font-weight:600;
+font-size: 85%;
+float:left;
+padding-right:2px;
+}
+
+
+.session-speakers {
+font-family: Helvetica ;
+font-weight:600;
+font-size: 85%;
+float:left;
+padding-right:2px;
+}
+
+.session-track, .session-skill-level{
+	font-family: Helvetica ;
+	font-weight:600;
+	font-size: 85%;
+	float:left;
+	padding-right:2px;
+}
+
+.session-room:after,
+.session-speakers:after,
+.session-track:after {
+  content: " /";
+}
+
+
+
+
+
+.row {
+padding-bottom: 20px;
+}
+
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.wifi{
+	background-color:black;
+	color:white;
+	padding: 9px;
+	font-family: OCR B Std;
+	font-size: 232%;
+	text-align:center;
+	
+}
+
+.bit{
+	font-family:'Press Start 2P';
+	font-size:300%;
+}
+
+
+
+
